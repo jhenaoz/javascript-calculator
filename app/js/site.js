@@ -62,16 +62,16 @@ $(document).ready(function(){
     numTwo = parseFloat($display.text());
 
     if (operator === "+"){
-      total = numOne + numTwo;
+      total = sumar(numOne, numTwo);
     }
     else if (operator === "-"){
-      total = numOne - numTwo;
+      total = restar(numOne, numTwo);
     }
     else if (operator === "/"){
-      total = numOne / numTwo;
+      total = dividir(numOne, numTwo);
     }
     else if (operator === "*"){
-      total = numOne * numTwo;
+      total = multiplicar(numOne, numTwo);
     }
 
     $display.text(total);
@@ -83,3 +83,19 @@ $(document).ready(function(){
     reset();
   });
 });
+
+function sumar() {
+    return 0;
+}
+
+function restar() {
+    return 0;
+}
+
+function multiplicar() {
+    return 0;
+}
+
+function dividir() {
+    return 0;
+}

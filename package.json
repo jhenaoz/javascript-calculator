@@ -1,0 +1,23 @@
+{
+  "name": "javascript-calculator",
+  "version": "1.0.0",
+  "description": "javascript calculator example",
+  "main": "index.js",
+  "repository": "git@github.com:ahoef/javascript-calculator.git",
+  "author": "Juan David Henao <jhenaoz93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "karma": "karma init",
+    "test": "karma start"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "karma": "^1.6.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-firefox-launcher": "^1.0.1"
+  }
+}
